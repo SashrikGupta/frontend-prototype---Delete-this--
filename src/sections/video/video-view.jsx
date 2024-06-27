@@ -2,7 +2,6 @@ import { useState, useEffect, useContext } from 'react';
 import axios from 'axios';
 import { IoIosSend } from 'react-icons/io';
 import { curr_context } from './VideoSrc';
-import CSR from './Process';
 import DU from './Uploader';
 import Card from '@mui/material/Card'
 import { GoogleGenerativeAI } from "@google/generative-ai";
